@@ -4,8 +4,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo "testing pipeline"
-                pwd
-                ls -ltr
+                sh 'pwd'
+                sh 'ls -ltr'
             }
         }
     }
