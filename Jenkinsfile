@@ -6,6 +6,7 @@ pipeline {
                 echo "testing pipeline"
                 sh 'pwd'
                 sh 'ls -ltr'
+                sh 'mvn --version'
             }
         }
     }
